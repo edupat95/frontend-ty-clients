@@ -1,0 +1,35 @@
+.barComponent{
+    border: thin solid gray;
+    border-radius: 5%;
+	padding: 5px;
+    width:49.5%;
+	display:inline-block;
+	margin:auto;
+	height:49.5%;
+	color: black;
+	background-color: white;
+}
+
+.topConsumers{
+    border: thin solid gray;
+    border-radius: 5%;
+	padding: 5px;
+    width:49.5%;
+	display:inline-block;
+	margin:auto;
+	height:49.5%;
+	color: black;
+	background-color: white;
+}
+
+.topProductsComponent{
+	border: thin solid gray;
+    border-radius: 5%;
+	padding: 5px;
+    width:49.5%;
+	display:inline-block;
+	margin:auto;
+	height:49.5%;
+	color: black;
+	background-color: white;
+}

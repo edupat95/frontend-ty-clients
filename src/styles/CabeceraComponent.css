@@ -1,0 +1,8 @@
+
+.cabeceraComponent {
+  font-size: 17px;
+  display: "flex"; 
+  position: "fixed";
+  background-color: grey;
+  width: "90%";
+}

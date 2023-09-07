@@ -1,0 +1,37 @@
+.containerPrincipal {
+    opacity: 1;  
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 15%;
+    height: 25%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+  }
+  
+  .containerSecundario{
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(80, 70, 80);
+  }
+
+  .inputsStyle{
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    background: #b9d2f8;
+  }
+
+  .buttomStyle{
+    border-radius: 5px;
+    background: #b9d2f8;
+  }
+  
+.title{
+    color: white
+}
+
+.button{
+  padding: 10%;
+}

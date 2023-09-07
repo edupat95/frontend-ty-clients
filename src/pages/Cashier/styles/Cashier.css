@@ -1,0 +1,62 @@
+.cashierContainer {
+  display: flex; 
+  font-size: 20px;
+  margin-top: 2%;
+}
+
+.cashierContainerLeft{
+  width: 50%;
+  text-align: left;
+  align-items: left; 
+}
+
+
+.containterProductMenu {
+  width: 100%;
+  height: 800px;
+  overflow-y: scroll;
+  text-align: left;
+  align-items: left;
+} 
+
+.containterProductMenuResto {
+  width: 100%;
+  height: 550px;
+  overflow-y: scroll;
+  text-align: left;
+  align-items: left;
+}
+
+.cashierContainerRight{
+  width: 60%;
+  margin-left: 50px
+}
+
+.cartProductsContainer{
+  width: 100%;
+  background-color: rgb(62, 60, 60);
+  height: 230px;
+  overflow-y: scroll;
+  text-align: center;
+  align-items: center;
+}
+
+.tableProductsContainer{
+  width: 100%;
+  background-color: rgb(62, 60, 60);
+  height: 300px;
+  overflow-y: scroll;
+  text-align: center;
+  align-items: center;
+}
+
+
+.scannContainer{
+  margin-top: 30px;
+  padding-top: 50px,
+}
+
+.scannContainerResto{
+  display: grid;
+  place-items: center;
+}
