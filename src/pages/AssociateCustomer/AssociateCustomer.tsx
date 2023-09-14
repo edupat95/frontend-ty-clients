@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import CabeceraComponent from '../../components/CabeceraComponent';
 import MenuButtonsComponent from './components/MenuButtonsComponent';
 import GenerateIdentifierAssociationView from './pages/GenerateIdentifierAssociation/GenerateIdentifierAssociationView';
+import LinkIdentifierToDocumento from './pages/LinkIdentifierToDocumento/LinkIdentifierToDocumentoView';
 
 
 export const AssociateCustomer = () => {
@@ -19,10 +20,8 @@ export const AssociateCustomer = () => {
           <GenerateIdentifierAssociationView />
         )} 
         {linkIdentifierToDocumentoView && (
-          <div>
-            Linkear con tarjeta
-          </div> 
-          )}
+          <LinkIdentifierToDocumento />
+        )}
       </div>
     </div>
   )
