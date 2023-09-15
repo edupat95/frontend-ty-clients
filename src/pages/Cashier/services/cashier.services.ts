@@ -38,7 +38,7 @@ const getProducts = async () => {
 
 const getCustomer = async (identificador: string) => {
   // TOKEN DE SESION DE USUARIO.
-  console.log('IDENTIFICADORRRR: ' + identificador);
+  //console.log('IDENTIFICADORRRR: ' + identificador);
   const res = await axios.get<MemberClub>(API_URL + `/asociado-clubs/club/${getSession().club.id}/ident/${identificador}`, { //Hardcode buscamos al asociado-club
     headers: {
       'Content-Type': 'application/json',
@@ -60,7 +60,7 @@ const getCustomer = async (identificador: string) => {
       break;
   }
 
-  console.log("DATOS DE RES ID: ", res.data);
+  //console.log("DATOS DE RES ID: ", res.data);
 
   const res2 = await axios.get<Member>(API_URL + `/asociados/${res.data.asociado.id}`, { //Hardcode buscamos al asociado
     headers: {
