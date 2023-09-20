@@ -79,10 +79,11 @@ const LinkIdentifierToDocumento = () => {
                 return 0;
               } else {
                 const res = await linkCustomerService(dni, identifier);
-                if (res != 0) {
+                console.log("res: " + JSON.stringify(res));
+                if (res != null) {
                   alert("Cliente vinculado correctamente");
                 } else {
-                  alert("No se pudo vincular el cliente");
+                  alert("No se pudo vincular el cliente, cambie de tarjeta");
                 }
               }
         } else {
