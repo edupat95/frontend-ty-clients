@@ -1,0 +1,19 @@
+.menuProductsComponent ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    background-color: rgb(104, 103, 103);
+  }
+  
+  .menuProductsComponent li {
+    padding: 10px 20px;
+    color: #fff; /* Cambia el color del texto según tu diseño */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+  
+  .menuProductsComponent li:hover {
+    background-color: #3b3b3b;
+  }
+  

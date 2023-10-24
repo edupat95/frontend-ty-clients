@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 import { getCashier } from '../../utilities/public.utilities';
 import CabeceraComponent from '../../components/CabeceraComponent';
 
-import { Alert, AlertTitle, Box, Button, Input } from '@mui/material';
+import { Alert, AlertTitle, Box, Button, Input, Menu } from '@mui/material';
 import {
   SwitchAccessShortcutOutlined,
   QrCodeScannerOutlined,
@@ -21,6 +21,7 @@ import OptionsInCartComponent from './pages/AutoService/components/OptionsInCart
 import ErrorMessageComponent from '../../components/ErrorMessageComponent';
 import AutoServiceView from './pages/AutoService/AutoServiceView';
 import RestoView from './pages/Resto/RestoView';
+import MenuButtonsComponent from './components/MenuButtonsComponent';
 
 export const Cashier = () => {
   const navigate = useNavigate();

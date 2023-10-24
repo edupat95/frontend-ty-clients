@@ -1,8 +1,28 @@
 .menuProductsComponent{
-    padding-top: 20px;
     display: inline-block;
 }
 
 .buttonsStyle{
     margin: 20px;
 }
+
+.menu-bar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgb(104, 103, 103); /* Cambia el color de fondo según tu diseño */
+  }
+  
+  .menu-bar li {
+    padding: 10px 20px;
+    color: #fff; /* Cambia el color del texto según tu diseño */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px;
+  }
+  
+  .menu-bar li:hover {
+    background-color: #3b3b3b; /* Cambia el color de fondo al pasar el mouse por encima */
+  }
+  

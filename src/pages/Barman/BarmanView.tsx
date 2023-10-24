@@ -6,6 +6,7 @@ import SerchTicketView from './pages/SerchTicketView';
 import { Button } from '@mui/material';
 import { useState } from 'react';
 import SerchCustomerProductsView from './pages/SerchCustomerProductsView';
+import MenuButtonsComponent from './components/MenuButtonsComponent';
 
 
 const BarmanView = () => {
@@ -21,21 +22,12 @@ const BarmanView = () => {
 
           <b>Club: </b> {getSession().club.nombre} <br />
 
-          <div>
-            <Button
-              variant='contained'
-              onClick={() => { setSerchTicktView(true); setCustomerProductsView(false) }}
-            >
-              buscar ticket
-            </Button>
-            <Button
-              variant='contained'
-              style={{ marginLeft: "10px" }}
-              onClick={() => { setSerchTicktView(false); setCustomerProductsView(true) }}
-            >
-              buscar tickets con cliente
-            </Button>
-          </div>
+
+          <MenuButtonsComponent
+            setSerchTicktView={setSerchTicktView}
+            setCustomerProductsView={setCustomerProductsView}
+          />
+          
 
           {serchTicktView && (
             <SerchTicketView />
